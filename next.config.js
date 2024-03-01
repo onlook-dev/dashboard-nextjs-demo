@@ -1,5 +1,9 @@
+const path = require('path');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    swcPlugins: [['@onlook/nextjs', { projectRoot: path.resolve('.') }]]
+  },
   images: {
     remotePatterns: [
       {
