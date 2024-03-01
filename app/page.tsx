@@ -13,14 +13,24 @@ interface User {
 export default async function IndexPage({
   searchParams
 }: {
-  searchParams: { q: string };
+  searchParams: { q?: string };
 }) {
   const search = searchParams.q ?? '';
-  const result = await sql`
-    SELECT id, name, username, email 
-    FROM users 
-    WHERE name ILIKE ${'%' + search + '%'};
-  `;
+  let result;
+
+  if (search) {
+    result = await sql`
+      SELECT id, name, username, email 
+      FROM users 
+      WHERE name ILIKE ${'%' + search + '%'}
+    `;
+  } else {
+    result = await sql`
+      SELECT id, name, username, email 
+      FROM users
+    `;
+  }
+
   const users = result.rows as User[];
 
   return (
