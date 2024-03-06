@@ -20,9 +20,9 @@ export default function UsersTable({ users }: { users: User[] }) {
     <Table>
       <TableHead>
         <TableRow>
-          <TableHeaderCell className='text-black'>Name</TableHeaderCell>
-          <TableHeaderCell className='text-black'>Username</TableHeaderCell>
-          <TableHeaderCell className='text-black'>Email</TableHeaderCell>
+          <TableHeaderCell className='text-black text-blue-600'>Name</TableHeaderCell>
+          <TableHeaderCell className='text-black text-blue-600'>Username</TableHeaderCell>
+          <TableHeaderCell className='text-black text-blue-600'>Email</TableHeaderCell>
         </TableRow>
       </TableHead>
       <TableBody>
