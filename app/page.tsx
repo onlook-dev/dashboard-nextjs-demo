@@ -34,8 +34,8 @@ export default async function IndexPage({
   const users = result.rows as User[];
 
   return (
-    <main className="p-4 md:p-10 mx-auto max-w-7xl">
-      <Title className='text-black text-2xl mb-2 text-3xl'>Users</Title>
+    <main className="p-4 md:p-10 mx-auto max-w-7xl bg-[#5b2525]">
+      <Title className='text-red-500 mb-2 text-4xl'>Users</Title>
       <Text>A list of users retrieved from a Postgres database.</Text>
       <Search />
       <Card className="mt-9 pl-9 pb-9 pt-9">
