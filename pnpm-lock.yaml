@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.0.18
     version: 2.0.18(react@18.2.0)
   '@onlook/nextjs':
-    specifier: ^1.0.6
-    version: 1.0.6
+    specifier: ^1.1.0
+    version: 1.1.0
   '@tremor/react':
     specifier: ^3.10.0
     version: 3.10.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.5)
@@ -391,8 +391,8 @@ packages:
       fastq: 1.15.0
     dev: false
 
-  /@onlook/nextjs@1.0.6:
-    resolution: {integrity: sha512-WqcLUm55KVhId0eewNLysQph/SkAoAluiGqGfLW47h/LGYnqipFZ6z/WFisVy4zTs0pvRSHyf9eSENYJcKykXw==}
+  /@onlook/nextjs@1.1.0:
+    resolution: {integrity: sha512-cCk6Rq+EhrVcluIbL7tuVgJy/yGcPmtqiPMJYsgLrbUCX9VIGrP0jodoJ3ziVI8PuMCbp7Ri7BQKEuTmhS2m9g==}
     dev: false
 
   /@panva/hkdf@1.1.1:
@@ -2003,6 +2003,7 @@ packages:
 
   /jose@4.15.4:
     resolution: {integrity: sha512-W+oqK4H+r5sITxfxpSU+MMdr/YSWGvgZMQDIsNoBDGGy4i7GBPTtvFKibQzW06n3U3TqHjhvBJsirShsEJ6eeQ==}
+    deprecated: this version is no longer supported
     dev: false
 
   /js-cookie@3.0.5:
