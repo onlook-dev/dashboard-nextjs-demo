@@ -28,7 +28,7 @@ export default function UsersTable({ users }: { users: User[] }) {
       <TableBody>
         {users.map((user) => (
           <TableRow key={user.id}>
-            <TableCell>{user.name}</TableCell>
+<TableCell class='text-blue-600'>{user.name}</TableCell>
             <TableCell>
               <Text>{user.username}</Text>
             </TableCell>
