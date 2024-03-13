@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full bg-gray-50">
-      <body className="h-full">
+      <body className="h-full bg-[#171717]">
         <Suspense>
           <Nav />
         </Suspense>
