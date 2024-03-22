@@ -22,8 +22,8 @@ const data = [
 
 export default function Example() {
   return (
-    <CustomTag id='foo' class='w-4 h-16'>
-      <CustomTag id='foo' class='w-4 h-16'>
+    <CustomTag id='foo'>
+      <CustomTag id='foo'>
       <Text>Comparison between Sales and Profit</Text>
       <AreaChart
         className="mt-4 h-80"
