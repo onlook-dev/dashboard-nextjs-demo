@@ -22,8 +22,8 @@ const data = [
 
 export default function Example() {
   return (
-    <Custom/>
-      <Custom/>
+    <div>
+      <div>
       <Text>Comparison between Sales and Profit</Text>
       <AreaChart
         className="mt-4 h-80"
