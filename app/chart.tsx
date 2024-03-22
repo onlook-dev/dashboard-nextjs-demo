@@ -22,8 +22,8 @@ const data = [
 
 export default function Example() {
   return (
-    <h1 className="text-2xl">Welcome</h1>
-      <h1 className="text-2xl">Welcome</h1>
+    <p>Hello World</p>
+      <p>Hello World</p>
       <Text>Comparison between Sales and Profit</Text>
       <AreaChart
         className="mt-4 h-80"
