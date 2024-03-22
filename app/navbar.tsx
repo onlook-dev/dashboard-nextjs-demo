@@ -17,7 +17,7 @@ export default function Navbar({ user }: { user: any }) {
   const pathname = usePathname();
 
   return (
-    <div className='w-4 bg-blue-500 h-8'>
+    <div className='bg-blue-500'>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
