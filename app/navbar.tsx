@@ -17,7 +17,7 @@ export default function Navbar({ user }: { user: any }) {
   const pathname = usePathname();
 
   return (
-    <div className='bg-blue-500'>
+    <CustomTag id='foo' class='w-4 h-16'>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
