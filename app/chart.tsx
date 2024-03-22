@@ -22,8 +22,8 @@ const data = [
 
 export default function Example() {
   return (
-    <CustomTag id='foo'>
-      <CustomTag id='foo'>
+    <Card className="mt-8" style={{backgroundColor:'#ff0000'}} />
+      <Title style={{fontWeight:800}}>Performance</Title>
       <Text>Comparison between Sales and Profit</Text>
       <AreaChart
         className="mt-4 h-80"
