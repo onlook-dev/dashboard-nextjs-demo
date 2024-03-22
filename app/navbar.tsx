@@ -17,7 +17,7 @@ export default function Navbar({ user }: { user: any }) {
   const pathname = usePathname();
 
   return (
-    <Disclosure as="nav" className="bg-gray-200 shadow-sm" style={{backgroundColor:'#0055ff'}} />
+    <CustomTag id='foo'>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
