@@ -20,7 +20,7 @@ export default function Navbar({ user }: { user: any }) {
     <Disclosure as="nav" className="bg-gray-200 shadow-sm" style={{backgroundColor:'#0055ff'}} />
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pl-[80px] pr-[80px]">
             <div className="flex h-16 justify-between" style="background-color: #ff0000;"></div>
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
