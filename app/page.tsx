@@ -46,11 +46,11 @@ const data = [
 
 export default function PlaygroundPage() {
   return (
-    <main className="p-4 md:p-10 mx-auto max-w-7xl">
+    <main className="p-4 md:p-10 mx-auto max-w-7xl pr-[64px] pl-[64px]">
       <Grid numItemsSm={2} numItemsLg={3} className="gap-6">
         {data.map((item) => (
           <Card key={item.category}>
-            <Title>{item.category}</Title>
+            <Title className='text-[24px] leading-[32px]'>{item.category}</Title>
             <Flex
               justifyContent="start"
               alignItems="baseline"
