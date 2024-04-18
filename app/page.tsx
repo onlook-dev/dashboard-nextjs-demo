@@ -50,7 +50,7 @@ export default function PlaygroundPage() {
     
       <Grid numItemsSm={2} numItemsLg={3} className="gap-6">
         {data.map((item) => (
-          <Card key={item.category} className='text-center'>
+          <Card key={item.category}>
             <Title>{item.category}</Title>
             <Flex
               justifyContent="start"
