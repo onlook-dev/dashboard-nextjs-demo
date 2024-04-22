@@ -46,11 +46,12 @@ const data = [
 
 export default function PlaygroundPage() {
   return (
-    <main className="p-4 md:p-10 mx-auto max-w-7xl">
+    <main className="p-10 space-y-0 py-10 items-normal h-full justify-start flex-col ml-[200px] opacity-80 overflow-auto flex mr-[200px] w-full mx-auto max-w-7xl">
+    
       <Grid numItemsSm={2} numItemsLg={3} className="gap-6">
         {data.map((item) => (
-          <Card key={item.category}>
-            <Title>{item.category}</Title>
+          <Card key={item.category} className='rounded-none border border-black border-dotted border-[10px]'/>
+            <Title className='text-center tracking-widest text-blue-600 font-semibold text-[20px] leading-[30px]'>{item.category}</Title>
             <Flex
               justifyContent="start"
               alignItems="baseline"
