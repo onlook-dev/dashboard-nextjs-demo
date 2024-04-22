@@ -49,14 +49,14 @@ export default function PlaygroundPage() {
     <main className="p-4 md:p-10 mx-auto max-w-7xl">
       <Grid numItemsSm={2} numItemsLg={3} className="gap-6">
         {data.map((item) => (
-          <Card key={item.category}>
+          <Card key={item.category} className='bg-gray-200 p-8 bg-[#ededed]'>
             <Title>{item.category}</Title>
             <Flex
               justifyContent="start"
               alignItems="baseline"
               className="space-x-2"
             >
-              <Metric>{item.stat}</Metric>
+              <Metric className="text-[#1a71ff]">{item.stat}</Metric>
               <Text>Total views</Text>
             </Flex>
             <Flex className="mt-6">
