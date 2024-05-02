@@ -22,8 +22,8 @@ const data = [
 
 export default function Example() {
   return (
-    <Card className="mt-8">
-      <Title>Performance</Title>
+    <Card className="mt-8 bg-gray-200">
+      <Title class="font-extrabold text-[38px] h-[38px]">Performance</Title>
       <Text>Comparison between Sales and Profit</Text>
       <AreaChart
         className="mt-4 h-80"
