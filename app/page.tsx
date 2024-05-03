@@ -46,17 +46,17 @@ const data = [
 
 export default function PlaygroundPage() {
   return (
-    <main className="p-4 md:p-10 mx-auto max-w-7xl">
-      <Grid numItemsSm={2} numItemsLg={3} className="gap-6">
+    <main className="p-5 md:p-10 mx-auto max-w-7xl">
+      <Grid numItemsSm={2} numItemsLg={3} className="gap-6 grid-cols-[repeat(3,_1fr)]">
         {data.map((item) => (
-          <Card key={item.category}>
+          <Card key={item.category} className='block p-[49px] bg-gray-200'>
             <Title>{item.category}</Title>
             <Flex
               justifyContent="start"
               alignItems="baseline"
               className="space-x-2"
             >
-              <Metric>{item.stat}</Metric>
+              <Metric className="text-[#0565ff]">{item.stat}</Metric>
               <Text>Total views</Text>
             </Flex>
             <Flex className="mt-6">
